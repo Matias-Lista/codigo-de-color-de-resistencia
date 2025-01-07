@@ -22,4 +22,4 @@ Para utilizar esta herramienta localmente simplemente debés descargar todos los
 3. Obten más detalles sobre el funcionamiento del código de color de resistencias presionando el botón de ayuda (❓).
 
 ## Agradecimientos
-Gracias a [@BelenPandolfini](google.com) por diseñar el vector de la resistencia.
+Gracias a [@Jeeenia]([google.com](https://github.com/Jeeenia)) por diseñar el vector de la resistencia.
