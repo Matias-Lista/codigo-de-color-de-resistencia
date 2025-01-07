@@ -23,4 +23,4 @@ To use this tool locally, simply download all the files into the same directory 
 3. Get more details about how the resistor color code works by clicking the help button (❓).
 
 ## Thanks
-Thanks to [@BelenPandolfini](google.com) for designing the resistor vector.
+Thanks to [@Jeeenia](https://github.com/Jeeenia) for designing the resistor vector.
