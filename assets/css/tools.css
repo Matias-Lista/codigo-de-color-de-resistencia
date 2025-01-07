@@ -1,0 +1,155 @@
+body {
+	background: #202020;
+	color: rgba(255, 255, 255, 0.85);
+	padding: 10px;
+}
+
+h1 {
+	color: var(--main-color);
+}
+
+.bubble {
+	background: #181818;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 
+			0 2px 4px rgba(255, 255, 255, 0.05);
+}
+
+.text-bubble {
+	max-width: 1400px;
+	margin: auto;
+
+	margin-bottom: 20px;
+}
+
+.long-bubble {
+	position: relative;
+	width: 1000px;
+	min-height: 300px;
+	margin: auto;
+
+	display: flex;
+}
+
+.long-bubble._50 .left, .long-bubble._50 .right {
+	width: 50%;
+}
+
+.long-bubble._40 .left {
+	width: 40%;
+}
+
+.long-bubble._40 .right {
+	width: 60%;
+}
+
+#help-boton {
+	color: #fff;
+	filter: none;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	text-decoration: none;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	height: 25px;
+	width: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1100px) {
+	.long-bubble {
+		width: 90%;
+	}
+}
+
+@media (max-width: 820px) {
+	.long-bubble {
+		flex-direction: column;
+	}
+
+	.long-bubble .left,
+	.long-bubble .right {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 520px) {
+	.long-bubble {
+		width: 100%;
+	}
+}
+
+
+/* HELP CARD */
+
+
+#help-card {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#help-card .wrap {
+	width: 600px;
+	background: #181818;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 2px 4px rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+
+#help-card .wrap a {
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	text-decoration: none;
+}
+
+#help-card .wrap p {
+	margin-top: 10px;
+}
+
+#help-card .wrap ul,
+#help-card .wrap ol {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#help-card .wrap::-webkit-scrollbar{
+  width: 10px;
+  background: #252525;
+}
+
+#help-card .wrap::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+
+#help-card .wrap table {
+	width: 100%;
+}
+
+#help-card .wrap table tr td {
+	padding: 1px;
+}
+
+@media (max-width: 650px) {
+	#help-card .wrap {
+		max-width: 90%;
+	}
+}
+

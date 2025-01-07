@@ -1,0 +1,111 @@
+.dropdown {
+    margin-top: 5px;
+}
+
+.dropdown label {
+    display: block;
+}
+
+.dropdown select {
+}
+
+.dropdown select option {
+
+}
+
+.dropdown .fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 5px;
+    row-gap: 2.5px;
+}
+
+.band-btn {
+    color: rgba(255, 255,255, 0.7);
+    border: 0;
+    font-size: 1em;
+    appearance: none;
+    display:inline-flex;
+    min-width:25px;
+    min-height: 25px;
+    padding: 0px 2px;
+    align-items: center; 
+    justify-content: center;
+    transition: padding 0.1s, max-width 0.1s;
+    cursor: pointer;
+}
+
+
+.band-btn:not(.active):hover,
+.band-btn:not(.active):focus {
+    padding: 0px 20px;   /* Expande el padding al hacer hover */
+}
+
+.fila1 .band-btn, .fila2 .band-btn {
+    max-width: 25px;
+}
+
+.fila1 .band-btn:not(.active):hover, 
+.fila2 .band-btn:not(.active):hover {
+    max-width: 65px;
+}
+
+
+.band-btn:first-child {
+    margin-left: 0;
+}
+
+.active {
+    padding: 0px 30px;
+    transform: scale(1.1);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+[class^="break"] {
+    display: none;
+    flex-basis: 100%;
+}
+
+.break {display: block;}
+
+@media(max-width: 1100px) {.break2 {display: block;}}
+
+@media(max-width: 1000px) {.break {display: none;} .break4 {display: block;}}
+
+@media(max-width: 960px) {svg {width: 250px;}}
+
+@media(max-width: 915px) {.break2 {display: none;} .break3 {display: block;}}
+
+
+@media(max-width: 876px) {.break4 {display: none;} .break5 {display: block;}}
+
+@media(max-width: 820px) {.right {padding-left: 15px;} .break5, .break3 {display: none;} .break6 {display: block;}}
+
+@media (max-width: 680px) {.break6 {display: none;}.break4,.break2 {display: block;}}
+
+@media (max-width: 590px) {.break2, .break4 {display: none;}.break7, .break5 {display: block;}}
+
+@media (max-width: 490px) {.break8 {display: block;}
+}
+
+@media (max-width: 450px) {
+    .right {padding: 0;}
+    .active {
+        padding: 0 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    span:not(.active):hover {
+        padding: 0px 2px;
+    }
+    .break5 {display: block;}
+    .break8 {display: none;}
+}
+
+@media (max-width: 400px) {.break9 {display: block;}}
+
+
+
+
