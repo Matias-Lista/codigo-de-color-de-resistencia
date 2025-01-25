@@ -83,7 +83,7 @@ for (var i = 0; i < bandas_btns.length; i++) {
 	bandas_btns[i].addEventListener('click', function () {
 		const banda = this.parentElement.getAttribute('attr-banda')
 		const valor = this.getAttribute('attr-value')
-		const esTolerancia = (valor == 4) ? true : false;
+		const esTolerancia = (banda == 4) ? true : false;
 
 		update.bind(this)(banda, valor, esTolerancia);
 	});
