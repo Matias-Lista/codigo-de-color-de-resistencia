@@ -24,3 +24,4 @@ To use this tool locally, simply download all the files into the same directory 
 
 ## Thanks
 Thanks to [@Jeeenia](https://github.com/Jeeenia) for designing the resistor vector.
+Thanks to [@edgardogho](https://github.com/edgardogho) for reporting an error in the units.
