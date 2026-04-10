@@ -23,3 +23,4 @@ Para utilizar esta herramienta localmente simplemente debés descargar todos los
 
 ## Agradecimientos
 Gracias a [@Jeeenia](https://github.com/Jeeenia) por diseñar el vector de la resistencia.
+Gracias a [@edgardogho](https://github.com/edgardogho) por reportar un error en las unidades.
